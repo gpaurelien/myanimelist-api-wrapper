@@ -11,7 +11,7 @@ class Items:
             params (dict): a dict containing the parameters of the query like: q, limit, fields, etc...
 
         Returns:
-            items ()
+            items (dict): a dict containing myanimelist data
         """
 
         try:
@@ -20,6 +20,7 @@ class Items:
             items = response.json()
         except HTTPError as e:
             raise e
-        else:
-            print('All went well!')
-            return items
+
+        print('All went well!')
+        
+        return items
