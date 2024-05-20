@@ -1,0 +1,4 @@
+class Identifier:
+    CLIENT_ID = ''
+    CLIENT_SECRET = ''
+    ACCESS_TOKEN = ''

@@ -1,2 +1,2 @@
 # myanimelist-api-wrapper
-MyAnimeList api wrapper for ease to use
+MyAnimeList wrapped API for ease of use
